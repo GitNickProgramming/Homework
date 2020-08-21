@@ -15,7 +15,7 @@
     - Figure out how to use the brute force technique to solve an instance of this problem, and demonstrate your algorithm on the matrix below. be sure to think about pruning, and what information should be kept in each node.
     - Submit your work (just show me the possibilities tree for the instance, along with statement of the answer, which is the best cycle) through Canvas.
     - Directed Graph:
-![](C:\Users\Nicholas\Pictures\Saved Pictures\directed_graph.png)
+![](output\directed_graph.png)
 
 
 ### Exercise 2 [4 points] - (Sums to n Problem by Brute Force):
