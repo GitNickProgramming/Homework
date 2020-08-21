@@ -18,7 +18,7 @@
 
         ![](output/directed_graph.PNG)
 
-        ![](output/solution1.png)
+        ![](output/solution1.PNG)
 
     - Best Cycle:
         - {1, 5, 4, 2, 3, 1} = (7 + 7 + 8 + 2 + 3) = ***27***
