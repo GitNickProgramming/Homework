@@ -15,7 +15,13 @@
     - Figure out how to use the brute force technique to solve an instance of this problem, and demonstrate your algorithm on the matrix below. be sure to think about pruning, and what information should be kept in each node.
     - Submit your work (just show me the possibilities tree for the instance, along with statement of the answer, which is the best cycle) through Canvas.
     - Directed Graph:
-![](output/directed_graph.PNG)
+
+        ![](output/directed_graph.PNG)
+
+        ![](output/solution1.png)
+
+    - Best Cycle:
+        - {1, 5, 4, 2, 3, 1} = (7 + 7 + 8 + 2 + 3) = ***27***
 
 
 ### Exercise 2 [4 points] - (Sums to n Problem by Brute Force):
@@ -28,3 +34,83 @@
     - Your job on this porject is to create a Java class that will take *n* as input and produce a list of all the possiblities (with each item in the list on its own row, with the integers in it in nondecreasing orer left to right).
     - Name the class **SumsToN**. Submite your work through Canvas - I need the source code for all the classes in oyur application (probably just one).
     - Note that I want to be able to take the source files(s) you send me, put them in a folder, go into that folder and at the command line type `javac SumsToN.java` and then type `java SumsToN` and have your application ask, at the command prompt, for the value of *n* and then print out the list of possibilities - one per line - in the command window.
+
+```java
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class SumsToN
+{
+    public static void main(String[] args)
+    {
+        Scanner stdIn = new Scanner(System.in);
+        int n;
+        int end;
+        do
+        {
+            System.out.print("\nWelcome to Program #1\n\nPlease enter an Integer for 'n' (must be positive): ");
+            while (!stdIn.hasNextInt()){
+                System.out.print("\nPlease enter an Integer: ");
+                stdIn.next();
+            }
+            n = stdIn.nextInt();
+            for(int i = 1; n < i;)
+            {
+                System.out.print("\nPlease enter a positive Integer: ");
+                while (!stdIn.hasNextInt()){
+                    System.out.print("\nPlease enter an Integer: ");
+                    stdIn.next();
+                }
+                n = stdIn.nextInt();
+            }
+            findSum(n);
+            System.out.print("\n\nEnter '0' to quit || '1' Try again: ");
+            while (!stdIn.hasNextDouble())
+            {
+                System.out.println("That's not a number!");
+                stdIn.next();
+            }
+            end = stdIn.nextInt();
+        } while (end != 0);
+
+    } // end main method
+
+
+    private static void findSum(int n)
+    {
+        findSums(n, new ArrayList<>());
+        System.out.print(Integer.toString(n));
+    } // end findSum method
+
+
+    private static void findSums(int n, ArrayList<Integer> addEnds)
+    {
+        ArrayList<Integer> addEndArgs;
+        int last = 0;
+        if (n > 1)
+        {
+            for (int i = 1; i <= n / 2; i++)
+            {
+                addEndArgs = new ArrayList<>(addEnds);
+                int j = n - i;
+                if (!addEnds.isEmpty())
+                {
+                    last = addEnds.get(addEnds.size() - 1);
+                }
+                if (i >= last && j >= i)
+                {
+                    addEndArgs.add(i);
+                    findSums(j, addEndArgs);
+                    for (Integer addend : addEnds)
+                    {
+                        System.out.print(Integer.toString(addend) + "+");
+                    }
+                    System.out.println(Integer.toString(i) + "+"
+                            + Integer.toString(j));
+
+                }
+            }
+        }
+    } // end findSums method
+} // end class SumsToN
+```
