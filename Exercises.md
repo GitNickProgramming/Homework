@@ -122,15 +122,15 @@ public class SumsToN
     - For each of the functions *g* given below, formally prove, directly from the definition, that $f ∈ \theta(g)$
     - Each of your 6 separate proofs must clearly state *N* and *c* as in the definition of *O()* and must clearly show the algebra proving your inequalities.
     - Make sure that you have some reason for choosing *N* and *c*, rather than just guessing and bluffing that the corresponding inequality is true (I'll be more skeptical of your inequalities if you haven't picked *N* and *c* sensibly).
-        - a. $g(n) = 1000n^{3}$
-        - b. $g(n) = n^{3} + 1000n^{2}$
-        - c. $g(n) = n^{3} - 1000n^{2}$ (assume n >= 1000 for this to be a legitimate function for our purposes)
+        - a. g(n) = 1000n^{3}
+        - b. g(n) = n^{3} + 1000n^{2}
+        - c. g(n) = n^{3} - 1000n^{2} (assume n >= 1000 for this to be a legitimate function for our purposes)
         
    ![](output/Exercise03.jpg)
 
 ### Exercise 4 [4 points]
-1. Your job on this Exercise is to consider the functions $f(n) = n^{3}2^{n}$ and $g(n) = n^{2}3^{n}$ and compare their efficiency categories.
-    - Try to prove $f ∈ O(g)$ and $g ∈ O(f)$. Decide which of these is true, and whether both are true, and fairly formal proofs of whatever you determine.
+1. Your job on this Exercise is to consider the functions ***f(n) = n^{3} 2^{n}*** and ***g(n) = n^{2}3^{n}*** and compare their efficiency categories.
+    - Try to prove ***f ∈ O(g)*** and ***g ∈ O(f)***. Decide which of these is true, and whether both are true, and fairly formal proofs of whatever you determine.
     - if you prove both of these (meaning f and g are in the same O category), you will be done. Otherwise, use a limit argument to prove that one of them is not in big-O of the other.
     - you might want to start by experimenting - computing some values of the these functions to arrive at a conjecture as to how their growth rates compare.
     
@@ -140,17 +140,17 @@ public class SumsToN
 ### Exercise 5 [10 points]
 1. Figure out the Θ efficiency category (be sure to do it in terms ofn) for the recurrence relation (for the number of multiplications performed in Strassen’s algorithm, to be coveredin the next chapter).
 
-**$T(n) = 7T(n/2)$**
+      **T(n) = 7T(n/2)$**
 
    - Be sure to write out all the steps carefully, essentially repeating the derivation of the Master Theorem.
-   - Assume that **$n = 2^m$**
+   - Assume that **$n = 2^{m}**
    ![](output/Exercise05.PNG)
 
 ### Exercise 6 [4 points]
 1. Figure out the Θ efficiency category (be sure to do it in terms ofn) for the recurrence relation (for the number of single digit multiplications performed in Karasuba’s algorithm,to be covered in the next chapter)
 
-**$T(n) = 3T(n/2) + n$**
+      **T(n) = 3T(n/2) + n**
 
    - Be sure to write out all the steps carefully, essentially repeating the derivation of the Master Theorem.
-   - Assume that **$n = 2^m$**
+   - Assume that **n = 2^{m}**
    ![](output/Exercise06.PNG)
