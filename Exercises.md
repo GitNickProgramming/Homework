@@ -118,8 +118,8 @@ public class SumsToN
 ## Chapter 2
 ### Exercise 3 [10 points]
 1. This project is intended to give you some simple, concrete experience with the formal definitions of *o* and *O*.
-    - Let *$f(n) = n^{3}$*. 
-    - For each of the functions *g* given below, formally prove, directly from the definition, that $f ∈ \theta(g)$
+    - Let ***f(n) = n^{3}***. 
+    - For each of the functions *g* given below, formally prove, directly from the definition, that ***f ∈ \theta(g)***
     - Each of your 6 separate proofs must clearly state *N* and *c* as in the definition of *O()* and must clearly show the algebra proving your inequalities.
     - Make sure that you have some reason for choosing *N* and *c*, rather than just guessing and bluffing that the corresponding inequality is true (I'll be more skeptical of your inequalities if you haven't picked *N* and *c* sensibly).
         - a. g(n) = 1000n^{3}
@@ -140,10 +140,10 @@ public class SumsToN
 ### Exercise 5 [10 points]
 1. Figure out the Θ efficiency category (be sure to do it in terms ofn) for the recurrence relation (for the number of multiplications performed in Strassen’s algorithm, to be coveredin the next chapter).
 
-      **T(n) = 7T(n/2)$**
+      **T(n) = 7T(n/2)**
 
    - Be sure to write out all the steps carefully, essentially repeating the derivation of the Master Theorem.
-   - Assume that **$n = 2^{m}**
+   - Assume that **n = 2^{m}**
    ![](output/Exercise05.PNG)
 
 ### Exercise 6 [4 points]
