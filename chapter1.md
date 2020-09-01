@@ -138,14 +138,14 @@ public class SumsToN
 
 **$T(n) = 7T(n/2)$**
 
-    - Be sure to write out all the steps carefully, essentially repeating the derivation of the Master Theorem.
-    - Assume that **$n = 2^m$**
+   - Be sure to write out all the steps carefully, essentially repeating the derivation of the Master Theorem.
+   - Assume that **$n = 2^m$**
 
 ### Exercise 6 [4 points]
 1. Figure out the Θ efficiency category (be sure to do it in terms ofn) for the recurrence relation (for the number of single digit multiplications performed in Karasuba’s algorithm,to be covered in the next chapter)
 
 **$T(n) = 3T(n/2) + n$**
 
-    - Be sure to write out all the steps carefully, essentially repeating the derivation of the Master Theorem.
-    - Assume that **$n = 2^m$**
+   - Be sure to write out all the steps carefully, essentially repeating the derivation of the Master Theorem.
+   - Assume that **$n = 2^m$**
     
