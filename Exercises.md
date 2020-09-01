@@ -144,7 +144,7 @@ public class SumsToN
 
    - Be sure to write out all the steps carefully, essentially repeating the derivation of the Master Theorem.
    - Assume that **n = 2^{m}**
-   ![](output/Exercise05.PNG)
+   ![](output/Exercise05.jpg)
 
 ### Exercise 6 [4 points]
 1. Figure out the Θ efficiency category (be sure to do it in terms ofn) for the recurrence relation (for the number of single digit multiplications performed in Karasuba’s algorithm,to be covered in the next chapter)
