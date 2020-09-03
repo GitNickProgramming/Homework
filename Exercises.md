@@ -153,7 +153,7 @@ public class SumsToN
 
    - Be sure to write out all the steps carefully, essentially repeating the derivation of the Master Theorem.
    - Assume that **n = 2^{m}**
-   ![](output/Exercise06.PNG)
+   ![](output/Exercise06.jpg)
    
 ### Exercise 7 [4 points]
 1. Suppose you have a function defined by:
@@ -162,6 +162,6 @@ public class SumsToN
       
    - Your job on this Exerise is to apply the previous discussion to find a well-known functiom ***g(n)*** such that ***T(n) ∈ Θ(g(n))*** and prove it, of course, by bounding ***T(n)*** above and below by functions that you can integrate, both of which are in ***Θ(g(n))***.
    - To receive credit for this Exercise, you must draw sketches showing exactly what functions you are using to bound ***T*** by, both above and below, and work out the ***Θ*** categories for the two integrals, which need to be the same to give the ***Θ*** category for ***T***.
-    ![](output/Exercise07.PNG)
+    ![](output/Exercise07.jpg)
 
    
