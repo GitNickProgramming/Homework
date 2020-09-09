@@ -168,7 +168,7 @@ public class SumsToN
 ### Exercise 8
    ![](output/Exercise08_page01.jpg)
    ![](output/Exercise08_page02.jpg)
-   ![](output/Exercise06_page03.jpg)
+   ![](output/Exercise08_page03.jpg)
 
 ### Exercise 9
    ![](output/Exercise09.jpg)
