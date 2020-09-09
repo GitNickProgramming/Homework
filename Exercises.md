@@ -164,4 +164,14 @@ public class SumsToN
    - To receive credit for this Exercise, you must draw sketches showing exactly what functions you are using to bound ***T*** by, both above and below, and work out the ***Θ*** categories for the two integrals, which need to be the same to give the ***Θ*** category for ***T***.
     ![](output/Exercise07.jpg)
 
-   
+## Chapter 4
+### Exercise 8
+   ![](output/Exercise08_page01.jpg)
+   ![](output/Exercise08_page02.jpg)
+   ![](output/Exercise06_page03.jpg)
+
+### Exercise 9
+   ![](output/Exercise09.jpg)
+
+### Exercise 10
+   ![](output/Exercise09.jpg)
