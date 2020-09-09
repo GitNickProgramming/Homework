@@ -174,4 +174,4 @@ public class SumsToN
    ![](output/Exercise09.jpg)
 
 ### Exercise 10
-   ![](output/Exercise09.jpg)
+   ![](output/Exercise10.jpg)
