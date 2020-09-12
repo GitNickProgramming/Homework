@@ -153,7 +153,7 @@ public class SumsToN
 
    - Be sure to write out all the steps carefully, essentially repeating the derivation of the Master Theorem.
    - Assume that **n = 2^{m}**
-   ![](output/Exercise06.jpg)
+   ![](output/Exercise06_02.jpg)
    
 ### Exercise 7 [4 points]
 1. Suppose you have a function defined by:
