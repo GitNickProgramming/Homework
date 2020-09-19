@@ -175,3 +175,11 @@ public class SumsToN
 
 ### Exercise 10
    ![](output/Exercise10.jpg)
+
+## Chapter 5
+### Exercise 11
+   ![](output/Exercise11.PNG)
+   
+### Exercise 12
+   ![](output/Exercise12.jpg)
+
