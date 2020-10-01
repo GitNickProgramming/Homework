@@ -182,4 +182,13 @@ public class SumsToN
    
 ### Exercise 12
    ![](output/Exercise12.jpg)
+### Exercise 13
+   ![](output/Exercise13.PNG) 
+### Exercise 14
+   ![](output/Exercise14_Page01.PNG)
+   ![](output/Exercise14_Page02.PNG)
+   
+### Exercise 15
+   ![](output/Exercise15.PNG)
+
 
