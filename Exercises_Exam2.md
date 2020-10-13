@@ -11,6 +11,9 @@ by scalar mult           (2906,24392)
 Message = "flee"
 ```
 
+### Exercise 18
+- Skipped this question 
+
 ## Chapter 8: Dynamic Programming
 ### Exercise 19
 
