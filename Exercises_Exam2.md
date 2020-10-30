@@ -131,6 +131,7 @@ public class ex21 {
 ![](output/Exercise22.PNG)
 
 ### Exercise 23
+- Skipped
 
 ## Chapter 9: The Greedy Approach
 ### Exercise 24
