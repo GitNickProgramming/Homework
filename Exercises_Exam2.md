@@ -128,8 +128,15 @@ public class ex21 {
 
 ## Chapter 8: Dynamic Programming (Cont'd)
 ### Exercise 22
+![](output/Exercise22.PNG)
 
 ### Exercise 23
 
 ## Chapter 9: The Greedy Approach
 ### Exercise 24
+![](output/Exercise24.jpg)
+
+## Chapter 10: Transform and Conquer
+### Exercise 25
+![](output/Exercise25.jpg)
+
