@@ -307,5 +307,7 @@ class OptMove {
 
 ## Chapter 10: Transform and Conquer
 ### Exercise 25
+![](output/Exercise25_table.PNG)
+
 ![](output/Exercise25.PNG)
 
